@@ -1,12 +1,7 @@
-:sos: This project is only somewhat active due to the low number of active maintainers. If you wish to participate, see [#72](https://github.com/llvmenv/llvmenv/issues/72).
-
 llvmenv
 =========
 
-[![crate](https://img.shields.io/crates/v/llvmenv.svg)](https://crates.io/crates/llvmenv)
-[![docs.rs](https://docs.rs/llvmenv/badge.svg)](https://docs.rs/llvmenv)
-
-Manage multiple LLVM/Clang build
+Manage multiple LLVM/Clang builds. A fork of the original `llvmenv` project specifically made for Metal.
 
 Install
 -------
