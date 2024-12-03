@@ -290,28 +290,7 @@ fn load_entry_toml(toml_str: &str) -> Result<Vec<Entry>> {
 
 pub fn official_releases() -> Vec<Entry> {
     vec![
-        Entry::official(13, 0, 0),
-        Entry::official(12, 0, 1),
-        Entry::official(12, 0, 0),
-        Entry::official(11, 1, 0),
-        Entry::official(11, 0, 0),
-        Entry::official(10, 0, 1),
-        Entry::official(10, 0, 0),
-        Entry::official(9, 0, 1),
-        Entry::official(8, 0, 1),
-        Entry::official(9, 0, 0),
-        Entry::official(8, 0, 0),
-        Entry::official(7, 1, 0),
-        Entry::official(7, 0, 1),
-        Entry::official(7, 0, 0),
-        Entry::official(6, 0, 1),
-        Entry::official(6, 0, 0),
-        Entry::official(5, 0, 2),
-        Entry::official(5, 0, 1),
-        Entry::official(4, 0, 1),
-        Entry::official(4, 0, 0),
-        Entry::official(3, 9, 1),
-        Entry::official(3, 9, 0),
+        Entry::official(19, 1, 0),
     ]
 }
 
@@ -690,26 +669,5 @@ mod tests {
         };
     }
 
-    checkout!(13, 0, 0);
-    checkout!(12, 0, 1);
-    checkout!(12, 0, 0);
-    checkout!(11, 1, 0);
-    checkout!(11, 0, 0);
-    checkout!(10, 0, 1);
-    checkout!(10, 0, 0);
-    checkout!(9, 0, 1);
-    checkout!(8, 0, 1);
-    checkout!(9, 0, 0);
-    checkout!(8, 0, 0);
-    checkout!(7, 1, 0);
-    checkout!(7, 0, 1);
-    checkout!(7, 0, 0);
-    checkout!(6, 0, 1);
-    checkout!(6, 0, 0);
-    checkout!(5, 0, 2);
-    checkout!(5, 0, 1);
-    checkout!(4, 0, 1);
-    checkout!(4, 0, 0);
-    checkout!(3, 9, 1);
-    checkout!(3, 9, 0);
+    checkout!(19, 1, 0);
 }
